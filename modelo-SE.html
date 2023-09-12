@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função SE</title>
+</head>
+<body>
+    <h1>estudando a função SE</h1>
+   <p>nome:<span id="nome"></span></p> 
+<p>signo:<span id="signo"></span></p> 
+    <script>
+       let nome = prompt("Olá, qual é o seu nome?"); //criação da variavel de nome + caixinha que pergunta o nome
+       let signo = prompt("Olá, qual é o seu signo?"); //mesma coisa so que com o signo2
+       let nomesigno = "nome: "+ nome + " "+"signo: "+ signo;
+
+       document.getElementById("nome").innerHTML = nome; //atribui a variavel ao id 
+       document.getElementById("signo").innerHTML = signo;
+    </script>
+</body>
+</html>
